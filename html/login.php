@@ -11,6 +11,8 @@
          echo "ID:".$id."<br/>";
          echo "First Name:".$row['first_name']."<br/>";
          echo "Last Name:".$row['last_name']."<br/>";
+         echo "Username:".$row['username']."<br/>";
+         echo "Password:".$row['password']."<br/>";
          $sql2 = "SELECT * FROM account WHERE id = $id";
          $result2 = mysqli_query($conn, $sql2);
          $bal = mysqli_fetch_assoc($result2);
