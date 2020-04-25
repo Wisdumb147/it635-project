@@ -16,10 +16,7 @@ Table "account"
 "id" - primary key
 "balance"
 
-To run the sql injection I ran the command below to display all of the information at the bank.
--This project was made to be vulernable to this vulernaiblity
--This way I would see their name, ID, username, password, bank balance so I could then log in to the users bank accounts and take their money.
--
+To run the sql injection I ran the command below to display all of the information at the bank. This project was made to be vulernable to this vulernaiblity when the user types in anything for the username and uses the command below for the password. This way I would see their name, ID, username, password, bank balance so I could then log in to the users bank accounts and take their money.
 
 Injection Command:
 
